@@ -1,1 +1,84 @@
-html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CAR RACING GAME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  </head>
+<link rel="stylesheet" href="carrace.css">
+  <body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600">
+    <div id="score-div">
+      <span>SCORE:</span>
+      <span id="score">0</span>
+    </div>
+
+    <!-- start to make road -->
+    <div id="container">
+
+
+    <div class="line" id="line-1"></div>
+    <div class="line" id="line-2"></div>
+    <div class="line" id="line-3"></div>
+
+    <div class="car" id="car">
+      <!-- design the car parts like tyres lights etc -->
+      <div class="f-glass"></div>
+      <div class="f-light-l"></div>
+      <div class="f-light-r"></div>
+      <div class="f-tyre-l"></div>
+      <div class="f-tyre-r"></div>
+      <div class="b-tyre-l"></div>
+      <div class="b-tyre-r"></div>
+      <div class="b-glass"></div>
+    </div>
+    <div class="car" id="car-1">
+      <!-- design the other car parts like tyres lights etc -->
+      <div class="f-glass"></div>
+      <div class="f-light-l"></div>
+      <div class="f-light-r"></div>
+      <div class="f-tyre-l"></div>
+      <div class="f-tyre-r"></div>
+      <div class="b-tyre-l"></div>
+      <div class="b-tyre-r"></div>
+      <div class="b-glass"></div>
+    </div>
+
+
+
+    <div class="car" id="car-2">
+      <!-- design the car parts like tyres lights etc -->
+      <div class="f-glass"></div>
+      <div class="f-light-l"></div>
+      <div class="f-light-r"></div>
+      <div class="f-tyre-l"></div>
+      <div class="f-tyre-r"></div>
+      <div class="b-tyre-l"></div>
+      <div class="b-tyre-r"></div>
+      <div class="b-glass"></div>
+    </div>
+
+
+
+    <div class="car" id="car-3">
+      <!-- design the car parts like tyres lights etc -->
+      <div class="f-glass"></div>
+      <div class="f-light-l"></div>
+      <div class="f-light-r"></div>
+      <div class="f-tyre-l"></div>
+      <div class="f-tyre-r"></div>
+      <div class="b-tyre-l"></div>
+      <div class="b-tyre-r"></div>
+      <div class="b-glass"></div>
+    </div>
+
+
+
+
+    <div id="restart-div">
+      <button id="restart">CLICK TO RESTART</button>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+  </body>
+</html>
