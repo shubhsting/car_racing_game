@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>CAR RACING GAME</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   </head>
 <link rel="stylesheet" href="carrace.css">
   <body>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600">
+
     <div id="score-div">
       <span>SCORE:</span>
       <span id="score">0</span>
@@ -80,5 +79,6 @@
     </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <script src="carrace.js" charset="utf-8"></script>
   </body>
 </html>
